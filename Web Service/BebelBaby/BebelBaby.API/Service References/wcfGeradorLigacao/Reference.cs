@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EasyCare.API.wcfGeradorLigacao {
+namespace BebelBaby.API.wcfGeradorLigacao {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -18,10 +18,10 @@ namespace EasyCare.API.wcfGeradorLigacao {
         // CODEGEN: Generating message contract since message GerarLigacaoMCareRequest has headers
         [System.ServiceModel.OperationContractAttribute(Action="http://www.pcservice.com.br/controlpc/GerarLigacaoMCare", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareResponse GerarLigacaoMCare(EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request);
+        BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareResponse GerarLigacaoMCare(BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://www.pcservice.com.br/controlpc/GerarLigacaoMCare", ReplyAction="*")]
-        System.Threading.Tasks.Task<EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareResponse> GerarLigacaoMCareAsync(EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request);
+        System.Threading.Tasks.Task<BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareResponse> GerarLigacaoMCareAsync(BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request);
     }
     
     /// <remarks/>
@@ -369,15 +369,15 @@ namespace EasyCare.API.wcfGeradorLigacao {
     public partial class GerarLigacaoMCareRequest {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://www.pcservice.com.br/controlpc")]
-        public EasyCare.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication;
+        public BebelBaby.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://www.pcservice.com.br/controlpc", Order=0)]
-        public EasyCare.API.wcfGeradorLigacao.MedicaoMCare medicao;
+        public BebelBaby.API.wcfGeradorLigacao.MedicaoMCare medicao;
         
         public GerarLigacaoMCareRequest() {
         }
         
-        public GerarLigacaoMCareRequest(EasyCare.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication, EasyCare.API.wcfGeradorLigacao.MedicaoMCare medicao) {
+        public GerarLigacaoMCareRequest(BebelBaby.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication, BebelBaby.API.wcfGeradorLigacao.MedicaoMCare medicao) {
             this.PersonalAuthentication = PersonalAuthentication;
             this.medicao = medicao;
         }
@@ -401,12 +401,12 @@ namespace EasyCare.API.wcfGeradorLigacao {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface WSControlPCSoapChannel : EasyCare.API.wcfGeradorLigacao.WSControlPCSoap, System.ServiceModel.IClientChannel {
+    public interface WSControlPCSoapChannel : BebelBaby.API.wcfGeradorLigacao.WSControlPCSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class WSControlPCSoapClient : System.ServiceModel.ClientBase<EasyCare.API.wcfGeradorLigacao.WSControlPCSoap>, EasyCare.API.wcfGeradorLigacao.WSControlPCSoap {
+    public partial class WSControlPCSoapClient : System.ServiceModel.ClientBase<BebelBaby.API.wcfGeradorLigacao.WSControlPCSoap>, BebelBaby.API.wcfGeradorLigacao.WSControlPCSoap {
         
         public WSControlPCSoapClient() {
         }
@@ -428,28 +428,28 @@ namespace EasyCare.API.wcfGeradorLigacao {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareResponse EasyCare.API.wcfGeradorLigacao.WSControlPCSoap.GerarLigacaoMCare(EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request) {
+        BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareResponse BebelBaby.API.wcfGeradorLigacao.WSControlPCSoap.GerarLigacaoMCare(BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request) {
             return base.Channel.GerarLigacaoMCare(request);
         }
         
-        public string GerarLigacaoMCare(EasyCare.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication, EasyCare.API.wcfGeradorLigacao.MedicaoMCare medicao) {
-            EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest inValue = new EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest();
+        public string GerarLigacaoMCare(BebelBaby.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication, BebelBaby.API.wcfGeradorLigacao.MedicaoMCare medicao) {
+            BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest inValue = new BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest();
             inValue.PersonalAuthentication = PersonalAuthentication;
             inValue.medicao = medicao;
-            EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareResponse retVal = ((EasyCare.API.wcfGeradorLigacao.WSControlPCSoap)(this)).GerarLigacaoMCare(inValue);
+            BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareResponse retVal = ((BebelBaby.API.wcfGeradorLigacao.WSControlPCSoap)(this)).GerarLigacaoMCare(inValue);
             return retVal.GerarLigacaoMCareResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareResponse> EasyCare.API.wcfGeradorLigacao.WSControlPCSoap.GerarLigacaoMCareAsync(EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request) {
+        System.Threading.Tasks.Task<BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareResponse> BebelBaby.API.wcfGeradorLigacao.WSControlPCSoap.GerarLigacaoMCareAsync(BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest request) {
             return base.Channel.GerarLigacaoMCareAsync(request);
         }
         
-        public System.Threading.Tasks.Task<EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareResponse> GerarLigacaoMCareAsync(EasyCare.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication, EasyCare.API.wcfGeradorLigacao.MedicaoMCare medicao) {
-            EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest inValue = new EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareRequest();
+        public System.Threading.Tasks.Task<BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareResponse> GerarLigacaoMCareAsync(BebelBaby.API.wcfGeradorLigacao.PersonalAuthentication PersonalAuthentication, BebelBaby.API.wcfGeradorLigacao.MedicaoMCare medicao) {
+            BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest inValue = new BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareRequest();
             inValue.PersonalAuthentication = PersonalAuthentication;
             inValue.medicao = medicao;
-            return ((EasyCare.API.wcfGeradorLigacao.WSControlPCSoap)(this)).GerarLigacaoMCareAsync(inValue);
+            return ((BebelBaby.API.wcfGeradorLigacao.WSControlPCSoap)(this)).GerarLigacaoMCareAsync(inValue);
         }
     }
 }

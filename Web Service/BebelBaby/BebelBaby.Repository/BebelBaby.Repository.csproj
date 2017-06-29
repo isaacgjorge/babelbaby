@@ -7,8 +7,8 @@
     <ProjectGuid>{D1BBD9B4-4F1F-4BAA-AFC6-E848EA5A77EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EasyCare.Repository</RootNamespace>
-    <AssemblyName>EasyCare.Repository</AssemblyName>
+    <RootNamespace>BebelBaby.Repository</RootNamespace>
+    <AssemblyName>BebelBaby.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

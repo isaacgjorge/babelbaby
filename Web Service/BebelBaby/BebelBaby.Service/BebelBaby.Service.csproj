@@ -7,8 +7,8 @@
     <ProjectGuid>{C7BC33BE-DA7D-41BE-92DC-CAFDE0D4E602}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EasyCare.Service</RootNamespace>
-    <AssemblyName>EasyCare.Service</AssemblyName>
+    <RootNamespace>BebelBaby.Service</RootNamespace>
+    <AssemblyName>BebelBaby.Service</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

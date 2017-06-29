@@ -61,3 +61,24 @@ C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Service\
 C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Service\obj\Debug\BebelBaby.Service.csprojResolveAssemblyReference.cache
 C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Service\obj\Debug\EasyCare.Service.dll
 C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Service\obj\Debug\EasyCare.Service.pdb
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Service.dll.config
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Service.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Service.pdb
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Core.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Repository.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Util.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\EntityFramework.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\PagedList.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Core.pdb
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Repository.pdb
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Repository.dll.config
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\BebelBaby.Util.pdb
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\EntityFramework.xml
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\PagedList.xml
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\obj\Debug\BebelBaby.Service.csprojResolveAssemblyReference.cache
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\obj\Debug\BebelBaby.Service.dll
+C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Service\obj\Debug\BebelBaby.Service.pdb

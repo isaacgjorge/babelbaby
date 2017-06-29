@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EasyCare.API</RootNamespace>
-    <AssemblyName>EasyCare.API</AssemblyName>
+    <RootNamespace>BebelBaby.API</RootNamespace>
+    <AssemblyName>BebelBaby.API</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -178,11 +178,11 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="index.html" />
-    <None Include="Service References\wcfGeradorLigacao\configuration91.svcinfo" />
-    <None Include="Service References\wcfGeradorLigacao\configuration.svcinfo" />
-    <Content Include="Service References\wcfGeradorLigacao\EasyCare.API.wcfGeradorLigacao.GerarLigacaoMCareResponse.datasource">
+    <Content Include="Service References\wcfGeradorLigacao\BebelBaby.API.wcfGeradorLigacao.GerarLigacaoMCareResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Service References\wcfGeradorLigacao\configuration91.svcinfo" />
+    <None Include="Service References\wcfGeradorLigacao\configuration.svcinfo" />
     <None Include="Service References\wcfGeradorLigacao\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -196,6 +196,7 @@
     <Compile Include="App_Start\DependencyResolverConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
