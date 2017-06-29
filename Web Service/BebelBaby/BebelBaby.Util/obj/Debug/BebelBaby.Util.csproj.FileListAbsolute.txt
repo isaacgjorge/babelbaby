@@ -1,0 +1,7 @@
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Util\bin\Debug\EasyCare.Util.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Util\bin\Debug\EasyCare.Util.pdb
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Util\bin\Debug\Newtonsoft.Json.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Util\bin\Debug\Newtonsoft.Json.xml
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Util\obj\Debug\BebelBaby.Util.csprojResolveAssemblyReference.cache
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Util\obj\Debug\EasyCare.Util.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Util\obj\Debug\EasyCare.Util.pdb

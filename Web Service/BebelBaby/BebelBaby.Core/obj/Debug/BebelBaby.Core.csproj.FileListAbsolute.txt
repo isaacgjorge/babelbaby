@@ -1,0 +1,14 @@
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Core\bin\Debug\EasyCare.Core.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Core\bin\Debug\EasyCare.Core.pdb
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Core\obj\Debug\BebelBaby.Core.csprojResolveAssemblyReference.cache
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Core\obj\Debug\EasyCare.Core.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\EasyCare\EasyCare.Core\obj\Debug\EasyCare.Core.pdb
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Core\bin\Debug\EasyCare.Core.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Core\bin\Debug\EasyCare.Core.pdb
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Core\obj\Debug\BebelBaby.Core.csprojResolveAssemblyReference.cache
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Core\obj\Debug\EasyCare.Core.dll
+C:\Users\isaac.jorge\Desktop\bebel Baby\Web Service\BebelBaby\BebelBaby.Core\obj\Debug\EasyCare.Core.pdb
