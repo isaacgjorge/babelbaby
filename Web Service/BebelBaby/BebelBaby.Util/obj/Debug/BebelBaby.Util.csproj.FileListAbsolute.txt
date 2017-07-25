@@ -12,3 +12,10 @@ C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\obj\Debug\BebelBaby.Util.csprojResolveAssemblyReference.cache
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\obj\Debug\BebelBaby.Util.dll
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\obj\Debug\BebelBaby.Util.pdb
+C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\bin\Debug\BebelBaby.Util.dll
+C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\bin\Debug\BebelBaby.Util.pdb
+C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\obj\Debug\BebelBaby.Util.csprojResolveAssemblyReference.cache
+C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\obj\Debug\BebelBaby.Util.dll
+C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.Util\obj\Debug\BebelBaby.Util.pdb
