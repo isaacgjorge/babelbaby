@@ -1,0 +1,6 @@
+
+.unstyled-html-datepicker::-webkit-inner-spin-button,
+.unstyled-html-datepicker::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}

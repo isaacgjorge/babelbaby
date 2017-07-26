@@ -1,0 +1,91 @@
+/* here you can put your own css to customize and override the theme */
+.page-sidebar .page-sidebar-menu>li.heading>h3, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.heading>h3 {
+    color: #4c2053;
+}
+
+.page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a {
+    border-left: 3px solid #4c2053!important;
+    margin-left: -3px;
+    padding-left: 15px;
+}
+
+.page-sidebar .page-sidebar-menu>li.active.open>a, .page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed 
+.page-sidebar:hover .page-sidebar-menu>li.active.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a {
+    background: #996DA0;
+    color: #F6F7F9;
+}
+
+.page-sidebar .page-sidebar-menu>li.active.open>a>i, .page-sidebar .page-sidebar-menu>li.active>a>i, .page-sidebar-closed.page-sidebar-fixed 
+.page-sidebar:hover .page-sidebar-menu>li.active.open>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>i {
+    color: #F6F7F9;
+}
+
+.page-sidebar .page-sidebar-menu>li>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>i {
+    color: #996DA0;
+}
+
+
+.page-sidebar .page-sidebar-menu>li.open>a, .page-sidebar .page-sidebar-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover 
+.page-sidebar-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a {
+    background: #996da0;
+    color: #f6f7f9;
+}
+
+.page-sidebar .page-sidebar-menu>li.open>a, .page-sidebar .page-sidebar-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover 
+.page-sidebar-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a {
+    background: #996da0;
+    color: #f6f7f9;
+}
+
+.page-sidebar .page-sidebar-menu>li.open>a>i, .page-sidebar .page-sidebar-menu>li:hover>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover 
+.page-sidebar-menu>li.open>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a>i {
+    color: #f6f7f9;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar .page-sidebar-menu 
+.sub-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed 
+.page-sidebar:hover .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li:hover>a {
+    color: #f6f7f9;
+    background: #996da0 !important;
+}
+
+.page-sidebar .page-sidebar-menu>li.active.open>a>.arrow.open:before, .page-sidebar .page-sidebar-menu>li.active.open>a>.arrow:before, .page-sidebar 
+.page-sidebar-menu>li.active>a>.arrow.open:before, .page-sidebar .page-sidebar-menu>li.active>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed 
+.page-sidebar:hover .page-sidebar-menu>li.active.open>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover 
+.page-sidebar-menu>li.active.open>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover 
+.page-sidebar-menu>li.active>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>.arrow:before {
+    color: #f6f7f9;
+}
+
+
+
+
+
+
+
+
+/*Login*/
+
+.user-login-5 .login-container>.login-content {
+    margin-top: 25% !important;
+}
+
+.btn.blue:not(.btn-outline) {
+    color: #F6F7F9 !important;
+    background-color: #86568F !important;
+    border-color: #6E2F77 !important;
+}
+
+
+/*retirar as setas do input type=number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/*mudar cor da fonte do bem-vindo no cabeçalho*/
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i {
+    color: #4c2053;
+}

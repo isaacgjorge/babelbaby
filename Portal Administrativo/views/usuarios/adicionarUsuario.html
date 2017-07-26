@@ -1,0 +1,172 @@
+<div class="portlet light bordered">  
+    <div class="portlet-body form">
+        <!-- BEGIN FORM-->
+        <form action="javascript:;" class="horizontal-form" method="post" ng-submit="AdicionarUsuarioCtrl.incluirUsuario()">
+            <div class="form-body" style="padding: 0;">
+                <h3 class="form-section">Informações pessoais</h3>
+                <div class="row">
+                    <!--nome-->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="control-label">Nome completo</label>
+                            <input type="text" id="nomeCompleto" class="form-control" required maxlength="100" ng-model="AdicionarUsuarioCtrl.usuario.Nome" placeholder="Insira o nome completo">
+                        </div>
+                    </div>
+                    <!--/nome-->
+                    <!--CPF-->
+                    <div class="col-md-2">
+                        <div class="form-group ">
+                            <label class="control-label">CPF</label>
+                            <input type="number" id="cpf" maxlength="11" class="form-control" required ng-model="AdicionarUsuarioCtrl.usuario.Cpf" placeholder="Insira o CPF">
+                        </div>
+                    </div>
+                    <!--/CPF-->
+                    <!--Sexo-->
+                    <div class="col-md-4">
+                        <div class="form-group col-md-4" style="padding: 0;">
+                            <label class="control-label">Sexo</label>
+                            <select id="sexo" ng-model="AdicionarUsuarioCtrl.usuario.Sexo" class="form-control">
+                                <option value="0">Feminino</option>
+                                <option value="1">Masculino</option>                                
+                                <option value="2">Outro</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--/Sexo-->
+                </div>                
+                <div class="row">
+                    <!--Data de nascimento-->
+                    <div class="col-md-2">
+                        <div class="form-group">
+                                <label class="control-label">Data de nascimento</label> <br>
+                                        <datepickernew date-format="dd/MM/yyyy" selector="form-control">
+                                            <input name="dataNascimento" type="text" class="form-control text-center" id="dataNascimentoSearch"
+                                                   placeholder="dd/mm/aaaa" maxlength="10" title="Data de Nascimento"
+                                                   ng-minlength="10"
+                                                   ng-model="AdicionarUsuarioCtrl.usuario.DtNascimento"
+                                                   ng-required="true">
+                                        </datepickernew>
+
+                        </div>
+                    </div>
+                    <!--/Data de nascimento-->
+                    <!--Altura-->
+                    <div class="col-md-2">
+                        <div class="form-group">
+                                <label class="control-label">Altura (cm)</label> <br>
+                                <input type="number" id="altura" class="form-control" required maxlength="3" ng-model="AdicionarUsuarioCtrl.usuario.Altura" placeholder="ex: 173">                                        
+
+                        </div>
+                    </div>
+                    <!--/Altura-->
+                    <!--Email-->
+                     <div class="col-md-5">
+                        <div class="form-group">
+                            <label class="control-label">Email</label>
+                            <input type="email" id="email" class="form-control" required maxlength="100" ng-model="AdicionarUsuarioCtrl.usuario.Email" placeholder="Insira o email">
+                        </div>
+                    </div>
+                    <!--/Email-->
+                </div>
+                <!--/row-->
+                <div class="row">
+                    <!--Telefone-->
+                    <div class="col-md-3">
+                        <div class="form-group ">
+                            <label class="control-label">Telefone</label>
+                            <input type="text" id="telefone" class="form-control" required maxlength="20" ng-model="AdicionarUsuarioCtrl.usuario.Telefone" ui-br-phone-number placeholder="Insira o telefone">
+                        </div>
+                    </div>
+                    <!--/Telefone-->
+                    <!--Celular-->
+                    <div class="col-md-3">
+                        <div class="form-group ">
+                            <label class="control-label">Celular</label>
+                            <input type="text" id="celular" class="form-control" required maxlength="20" ng-model="AdicionarUsuarioCtrl.usuario.Celular" ui-br-phone-number placeholder="Insira o celular">
+                        </div>
+                    </div>
+                    <!--/Celular-->
+                    <!--Número plano de saúde-->
+                    <div class="col-md-3">
+                        <div class="form-group ">
+                            <label class="control-label">Número plano de saúde</label>
+                            <input type="number" id="numeroCarteirinhaPlanoSaude" class="form-control" required maxlength="50" ng-model="AdicionarUsuarioCtrl.usuario.NumeroCarteirinhaPlanoSaude" placeholder="Insira o número plano de saúde">
+                        </div>
+                    </div>
+                    <!--/Número plano de saúde-->
+                </div>
+                <!--/row-->
+
+
+                <h3 class="form-section">Contatos de emergência</h3>                
+                <div class="row">                     
+                    <!--nome primeiro contato-->
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Nome primeiro contato</label>
+                            <input type="text" id="nomePrimeiroContato" class="form-control"  required maxlength="100" ng-model="AdicionarUsuarioCtrl.usuario.ContatoEmergencia1" placeholder="Insira o Nome do primeiro contato">
+                        </div>
+                    </div>
+                     <!--/nome primeiro contato-->
+                </div>
+                 <!--/row-->
+                  <div class="row"> 
+                    <!--celular primeiro contato-->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Celular Primeiro contato</label>
+                            <input type="text" id="celularPrimeiroContato" class="form-control"  required maxlength="20" ng-model="AdicionarUsuarioCtrl.usuario.CelularContatoEmergencia1"  ui-br-phone-number placeholder="Insira o Celular do primeiro contato">
+                        </div>
+                    </div>
+                     <!--/celular primeiro contato-->
+                    <!--email primeiro contato-->
+                     <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Email primeiro contato</label>
+                            <input type="email" id="emailPrimeiroContato" class="form-control"  maxlength="100" ng-model="AdicionarUsuarioCtrl.usuario.EmailContatoEmergencia1" placeholder="Insira o Email do primeiro contato">
+                        </div>
+                    </div>
+                    <!--/email primeiro contato-->
+                </div>
+                <!--/row-->
+               <div class="row">                     
+                    <!--nome segundo contato-->
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Nome segundo contato</label>
+                            <input type="text" id="nomeSegundoContato" class="form-control" maxlength="100" ng-model="AdicionarUsuarioCtrl.usuario.ContatoEmergencia2"  placeholder="Insira o Nome do segundo contato">
+                        </div>
+                    </div>
+                     <!--/nome segundo contato-->
+                </div>
+                 <!--/row-->
+                  <div class="row"> 
+                    <!--celular segundo contato-->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Celular segundo contato</label>
+                            <input type="text" id="celularSegundoContato" class="form-control" maxlength="20" ng-model="AdicionarUsuarioCtrl.usuario.CelularContatoEmergencia2" ui-br-phone-number placeholder="Insira o Celular do segundo contato">
+                        </div>
+                    </div>
+                     <!--/celular segundo contato-->
+                    <!--email segundo contato-->
+                     <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Email segundo contato</label>
+                            <input type="email" id="emailSegundoContato" class="form-control" maxlength="100" ng-model="AdicionarUsuarioCtrl.usuario.EmailContatoEmergencia2" placeholder="Insira o Email do segundo contato">
+                        </div>
+                    </div>
+                    <!--/email segundo contato-->
+                </div>
+                <!--/row-->
+            </div>
+            <div class="form-actions right">
+                <button type="button" ng-click="AdicionarUsuarioCtrl.cancelar()" class="btn default">Cancelar</button>
+                <button type="submit" class="btn blue">
+                    <i class="fa fa-check"></i> Incluir
+                </button>
+            </div>
+        </form>
+        <!-- END FORM-->
+    </div>
+</div>

@@ -1,0 +1,61 @@
+<div class="portlet light bordered">
+    <div class="portlet-body form">
+        <!-- BEGIN -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- BEGIN SAMPLE TABLE PORTLET-->
+                <div class="portlet box ">
+
+                    <div class="portlet-body">
+                        <div class="table-scrollable">
+                            <table class="table table-striped table-bordered table-hover dataTable no-footer">
+                                <thead>
+                                    <tr>                                    
+                                        <th style="width: 70px;"> Ações </th>
+                                        <th> Nome </th>
+                                        <th> Nascimento </th>
+                                        <th> Sexo </th>
+                                        <th> Email </th>
+                                        <th> Celular </th>
+                                        <th> CPF </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="usuario in ListaUsuariosCtrl.usuarios">
+                                         <td>
+                                           <div class="btn-group dropdown" uib-dropdown="" is-open="status.isopen">
+                                              <button id="single-button" type="button" class="btn btn-xs green dropdown-toggle" uib-dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="false">
+                                                Ações <span class="caret"></span>
+                                              </button>
+                                              <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="single-button">
+                                                <li role="menuitem"><a href="#" ng-click="ListaUsuariosCtrl.desassociarMedidores(usuario)">Desativar dispositivos</a></li>
+                                                <li class="divider"></li>
+                                                <li role="menuitem"><a href="#" ng-click="ListaUsuariosCtrl.associarMedidorPadrao(usuario, 74, 'Glicosimetro')" >Incluir glicosimetro</a></li>
+                                                <li role="menuitem"><a href="#" ng-click="ListaUsuariosCtrl.associarMedidorPadrao(usuario, 116, 'Oximetro')">Incluir oximetro</a></li>
+                                                <li role="menuitem"><a href="#" ng-click="ListaUsuariosCtrl.associarMedidorPadrao(usuario, 117, 'Manômetro')">Incluir manômetro</a></li>
+                                                <li role="menuitem"><a href="#" ng-click="ListaUsuariosCtrl.associarMedidorPadrao(usuario, 115, 'Termometro')">Incluir termometro</a></li>
+                                                <li role="menuitem"><a href="#" ng-click="ListaUsuariosCtrl.associarMedidorPadrao(usuario, 118, 'Balança')">Incluir Balança</a></li>
+                                              </ul>
+                                            </div>
+                                        </td>
+                                        <td> {{usuario.Nome}} </td>
+                                        <td> {{usuario.DtNascimento | date:'dd/MM/yyyy' }} </td>
+                                        <td> {{usuario.Sexo == 0 ? 'Feminino' : usuario.Sexo == 1 ? 'Masculino' : 'Outro' }} </td>
+                                        <td> {{usuario.Email}} </td>
+                                        <td> {{usuario.Celular}} </td>
+                                        <td> {{usuario.Cpf}} </td>
+                                       
+                                    </tr>
+                                  
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SAMPLE TABLE PORTLET-->
+            </div>
+
+        </div>
+        <!-- END -->
+    </div>
+</div>
