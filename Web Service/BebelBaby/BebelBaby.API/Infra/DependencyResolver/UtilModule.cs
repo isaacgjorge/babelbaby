@@ -5,13 +5,13 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 
-namespace EasyCare.API.Infra.DependencyResolver
+namespace BebelBaby.API.Infra.DependencyResolver
 {
     public class UtilModule : Autofac.Module
     {
         protected override void Load(ContainerBuilder builder)
         {
-            var assembly = Assembly.Load("EasyCare.Util");
+            var assembly = Assembly.Load("BebelBaby.Util");
 
             builder
                 .RegisterAssemblyTypes(assembly)

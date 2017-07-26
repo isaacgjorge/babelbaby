@@ -1,10 +1,10 @@
 ﻿using Autofac;
 using Autofac.Integration.WebApi;
-using EasyCare.API.Infra.DependencyResolver;
-using EasyCare.API.Infra.DependencyResolver.Modules;
+using BebelBaby.API.Infra.DependencyResolver;
+using BebelBaby.API.Infra.DependencyResolver.Modules;
 using System.Web.Http;
 
-namespace EasyCare.Api
+namespace BebelBaby.Api
 {
     public class DependencyResolverConfig
     {

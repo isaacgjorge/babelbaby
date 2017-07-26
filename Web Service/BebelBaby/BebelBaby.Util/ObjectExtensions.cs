@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyCare.Util
+namespace BebelBaby.Util
 {
     public static class ObjectExtensions
     {

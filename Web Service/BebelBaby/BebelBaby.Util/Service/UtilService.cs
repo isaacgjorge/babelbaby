@@ -6,7 +6,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace EasyCare.Util.Service
+namespace BebelBaby.Util.Service
 {
     public class UtilService : IUtilRepository
     {

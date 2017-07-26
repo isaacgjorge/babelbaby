@@ -1,20 +1,20 @@
 ﻿
 using Autofac;
-using EasyCare.Core.BusinessRules;
+using BebelBaby.Core.BusinessRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Web;
 
-namespace EasyCare.API.Infra.DependencyResolver
+namespace BebelBaby.API.Infra.DependencyResolver
 {
     public class BusinessRulesModule : Autofac.Module
     {
         protected override void Load(ContainerBuilder builder)
         {
 
-            var assembly =  Assembly.Load("EasyCare.Core.BusinessRules");
+            var assembly =  Assembly.Load("BebelBaby.Core.BusinessRules");
 
             builder
               .RegisterAssemblyTypes(assembly)

@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyCare.Repository.Common
+namespace BebelBaby.Repository.Common
 {
     public interface IGenericRepository<TEntity> where TEntity : class
     {

@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using Autofac.Integration.WebApi;
-using EasyCare.Api;
+using BebelBaby.Api;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace EasyCare.API
+namespace BebelBaby.API
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

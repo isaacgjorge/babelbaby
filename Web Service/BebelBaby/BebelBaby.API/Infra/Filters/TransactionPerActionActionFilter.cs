@@ -1,5 +1,5 @@
 ﻿using Autofac.Integration.WebApi;
-using EasyCare.Repository.Common;
+using BebelBaby.Repository.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
-namespace EasyCare.API.Infra.Filters
+namespace BebelBaby.API.Infra.Filters
 {
     public class TransactionPerActionActionFilter : IAutofacActionFilter
     {

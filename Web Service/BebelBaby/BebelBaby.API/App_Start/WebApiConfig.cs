@@ -1,11 +1,11 @@
-﻿using EasyCare.API.App_Start;
+﻿using BebelBaby.API.App_Start;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
-namespace EasyCare.API
+namespace BebelBaby.API
 {
     public static class WebApiConfig
     {

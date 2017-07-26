@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyCare.Core.BusinessRules
+namespace BebelBaby.Core.BusinessRules
 {
     public interface IExecutorDeRegrasDeNegocio
     {

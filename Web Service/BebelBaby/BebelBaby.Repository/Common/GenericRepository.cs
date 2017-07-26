@@ -6,10 +6,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Diagnostics;
-using EasyCare.Core;
+using BebelBaby.Core;
 using PagedList;
 
-namespace EasyCare.Repository.Common
+namespace BebelBaby.Repository.Common
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {

@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyCare.Core.BusinessRules
+namespace BebelBaby.Core.BusinessRules
 {
     public class RegraDeNegocioException : Exception
     {

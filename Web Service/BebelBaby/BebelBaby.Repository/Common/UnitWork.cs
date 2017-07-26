@@ -1,4 +1,4 @@
-﻿using EasyCare.Core;
+﻿using BebelBaby.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Data.Entity.Validation;
+using BebelBaby.Core;
 
-namespace EasyCare.Repository.Common
+namespace BebelBaby.Repository.Common
 {
 
     public class UnitWork : IUnitWork, IDisposable
@@ -69,17 +70,79 @@ namespace EasyCare.Repository.Common
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-        #endregion     
-        
-        //private IGenericRepository<Usuario> usuarioRepository;
-        //public IGenericRepository<Usuario> UsuarioRepository
-        //{
-        //    get
-        //    {
-        //        return usuarioRepository ?? (usuarioRepository = new GenericRepository<Usuario>(_db));
-        //    }
-        //}
-        
-        
+        #endregion
+
+        private IGenericRepository<Cor> corRepository;
+        public IGenericRepository<Cor> CorRepository
+        {
+            get
+            {
+                return corRepository ?? (corRepository = new GenericRepository<Cor>(_db));
+            }
+        }
+
+        private IGenericRepository<CorProduto> corProdutoRepository;
+        public IGenericRepository<CorProduto> CorProdutoRepository
+        {
+            get
+            {
+                return corProdutoRepository ?? (corProdutoRepository = new GenericRepository<CorProduto>(_db));
+            }
+        }
+
+        private IGenericRepository<Produto> produtoRepository;
+        public IGenericRepository<Produto> ProdutoRepository
+        {
+            get
+            {
+                return produtoRepository ?? (produtoRepository = new GenericRepository<Produto> (_db));
+            }
+        }
+
+        private IGenericRepository<Tamanho> tamanhoRepository;
+        public IGenericRepository<Tamanho> TamanhoRepository
+        {
+            get
+            {
+                return tamanhoRepository ?? (tamanhoRepository = new GenericRepository<Tamanho> (_db));
+            }
+        }
+
+        private IGenericRepository<TamanhoProduto> tamanhoProdutoRepository;
+        public IGenericRepository<TamanhoProduto> TamanhoProdutoRepository
+        {
+            get
+            {
+                return tamanhoProdutoRepository ?? (tamanhoProdutoRepository = new GenericRepository<TamanhoProduto>(_db));
+            }
+        }
+
+
+        private IGenericRepository<TipoProduto> tipoProdutoRepository;
+        public IGenericRepository<TipoProduto> TipoProdutoRepository
+        {
+            get
+            {
+                return tipoProdutoRepository ?? (tipoProdutoRepository = new GenericRepository<TipoProduto>(_db));
+            }
+        }
+
+        private IGenericRepository<Usuario> usuarioRepository;
+        public IGenericRepository<Usuario> UsuarioRepository
+        {
+            get
+            {
+                return usuarioRepository ?? (usuarioRepository = new GenericRepository<Usuario>(_db));
+            }
+        }
+
+        private IGenericRepository<ValorProduto> valorProdutoRepository;
+        public IGenericRepository<ValorProduto> ValorProdutoRepository
+        {
+            get
+            {
+                return valorProdutoRepository ?? (valorProdutoRepository = new GenericRepository<ValorProduto>(_db));
+            }
+        }
     }
 }

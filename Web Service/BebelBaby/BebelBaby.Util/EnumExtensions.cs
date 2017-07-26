@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Linq;
 
-namespace EasyCare.Util
+namespace BebelBaby.Util
 {
     public static class EnumExtensions
     {

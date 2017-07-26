@@ -1,5 +1,5 @@
-﻿using EasyCare.Core;
-using EasyCare.Repository;
+﻿using BebelBaby.Core;
+using BebelBaby.Repository;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ using System.Web.Http;
 using System.Web.Http.Cors;
 using PagedList;
 
-namespace EasyCare.API.Controllers
+namespace BebelBaby.API.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*", SupportsCredentials = true)]
     [Route("baseAPI")]

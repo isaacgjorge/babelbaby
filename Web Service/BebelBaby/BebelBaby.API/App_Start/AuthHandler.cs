@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 using System.Security.Claims;
 using System.Web.Script.Serialization;
 using System.Collections;
-using EasyCare.Util;
+using BebelBaby.Util;
 
-namespace EasyCare.API.App_Start
+namespace BebelBaby.API.App_Start
 {
     public class AuthHandler : DelegatingHandler
     {

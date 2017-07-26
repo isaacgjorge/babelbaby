@@ -1,19 +1,34 @@
-﻿using EasyCare.Core;
+﻿using BebelBaby.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BebelBaby.Core;
 
-namespace EasyCare.Repository.Common
+namespace BebelBaby.Repository.Common
 {
-    public interface IUnitWork 
+    public interface IUnitWork
     {
         void Save();
         void Dispose();
 
-        //IGenericRepository<Usuario> UsuarioRepository { get; }
-        
+        IGenericRepository<Cor> CorRepository { get; }
+
+        IGenericRepository<CorProduto> CorProdutoRepository { get; }
+
+        IGenericRepository<Produto> ProdutoRepository { get; }
+
+        IGenericRepository<Tamanho> TamanhoRepository { get; }
+
+        IGenericRepository<TamanhoProduto> TamanhoProdutoRepository { get; }
+
+        IGenericRepository<TipoProduto> TipoProdutoRepository { get; }
+
+        IGenericRepository<Usuario> UsuarioRepository { get; }
+
+        IGenericRepository<ValorProduto> ValorProdutoRepository { get; }
+
 
     }
 }

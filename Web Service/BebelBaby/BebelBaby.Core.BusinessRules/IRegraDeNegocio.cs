@@ -1,4 +1,4 @@
-﻿namespace EasyCare.Core.BusinessRules
+﻿namespace BebelBaby.Core.BusinessRules
 {
     public interface IRegraDeNegocio
     {

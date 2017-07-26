@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace EasyCare.Util
+namespace BebelBaby.Util
 {
     public class Constants
     {

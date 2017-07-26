@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using Autofac;
 using System.Data.Entity;
-using EasyCare.Repository;
-using EasyCare.Repository.Common;
+using BebelBaby.Repository;
+using BebelBaby.Repository.Common;
 
-namespace EasyCare.API.Infra.DependencyResolver
+namespace BebelBaby.API.Infra.DependencyResolver
 {
     public class EFModule : Autofac.Module
     {

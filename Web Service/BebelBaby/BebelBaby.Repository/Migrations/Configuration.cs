@@ -1,18 +1,18 @@
-namespace EasyCare.Repository.Migrations
+namespace BebelBaby.Repository.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<EasyCare.Repository.DataContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BebelBaby.Repository.DataContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(EasyCare.Repository.DataContext context)
+        protected override void Seed(BebelBaby.Repository.DataContext context)
         {
             //  This method will be called after migrating to the latest version.
 
