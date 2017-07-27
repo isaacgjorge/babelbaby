@@ -1,7 +1,7 @@
 /* Setup Layout Part - Header */
 (function () {
     "use strict";
-    angular.module("EasyCare").controller('HeaderController', ['$scope', '$rootScope', 
+    angular.module("BebelBaby").controller('HeaderController', ['$scope', '$rootScope', 
     function($scope, $rootScope) {
         $scope.$on('$includeContentLoaded', function() {
             $scope.usuario = $rootScope.$user;

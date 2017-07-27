@@ -1,7 +1,7 @@
 (function(){
     "use strict";
 
-    angular.module('EasyCare').service('usuarioService', 
+    angular.module('BebelBaby').service('usuarioService', 
     ['$http', '$rootScope',
     function($http, $rootScope) {
          var retornarUsuarioAtual = function(){

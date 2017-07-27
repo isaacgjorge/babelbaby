@@ -2,7 +2,7 @@
     "use strict";
 
     /* Setup general page controller */
-    angular.module('EasyCare').controller('LoginController', ['loginService', '$state', 'miboxService', '$rootScope', '$http', '$sce', '$window',
+    angular.module('BebelBaby').controller('LoginController', ['loginService', '$state', 'miboxService', '$rootScope', '$http', '$sce', '$window',
     function(loginService, $state, miboxService, $rootScope, $http, $sce, $window) {
         var vm = this;
  

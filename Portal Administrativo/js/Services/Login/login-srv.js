@@ -1,7 +1,7 @@
 (function(){
     "use strict";
 
-    angular.module('EasyCare').service('loginService', 
+    angular.module('BebelBaby').service('loginService', 
     ['$http', '$localStorage', 'localStorageService', '$rootScope', '$window',
     function($http, $localStorage, localStorageService, $rootScope, $window ) {
         var service = {}; 

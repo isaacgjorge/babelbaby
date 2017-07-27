@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    angular.module("EasyCare")
+    angular.module("BebelBaby")
     .config(['$stateProvider', '$urlRouterProvider','$locationProvider', function($stateProvider, $urlRouterProvider,$locationProvider) {
         // Redirect any unmatched url
         //$urlRouterProvider.otherwise("/dashboard");  

@@ -90,6 +90,24 @@ namespace BebelBaby.Repository.Common
             }
         }
 
+        private IGenericRepository<Perfil> perfilRepository;
+        public IGenericRepository<Perfil> PerfilRepository
+        {
+            get
+            {
+                return perfilRepository ?? (perfilRepository = new GenericRepository<Perfil>(_db));
+            }
+        }
+
+        private IGenericRepository<PerfilUsuario> perfilUsuarioRepository;
+        public IGenericRepository<PerfilUsuario> PerfilUsuarioRepository
+        {
+            get
+            {
+                return perfilUsuarioRepository ?? (perfilUsuarioRepository = new GenericRepository<PerfilUsuario>(_db));
+            }
+        }
+
         private IGenericRepository<Produto> produtoRepository;
         public IGenericRepository<Produto> ProdutoRepository
         {

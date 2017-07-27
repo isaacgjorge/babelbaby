@@ -5,7 +5,7 @@ Date.prototype.addDays = function(days) {
 
 (function () {
     "use strict";
-    var EasyCare = angular.module("EasyCare", [
+    var BebelBaby = angular.module("BebelBaby", [
         "angulardatepicker",
         "ui.router", 
         "ui.bootstrap", 
@@ -20,13 +20,13 @@ Date.prototype.addDays = function(days) {
     ]); 
 
     /* Configure ocLazyLoader(refer: https://github.com/ocombe/ocLazyLoad) */
-    EasyCare.config(['$ocLazyLoadProvider', function($ocLazyLoadProvider) {
+    BebelBaby.config(['$ocLazyLoadProvider', function($ocLazyLoadProvider) {
         $ocLazyLoadProvider.config({
             // global configs go here
         });
     }]);
 
-    EasyCare.config(['toastrConfig', function(toastrConfig){
+    BebelBaby.config(['toastrConfig', function(toastrConfig){
         angular.extend(toastrConfig, {
             autoDismiss: false,
             position: 'toast-top-right',
@@ -44,14 +44,14 @@ Date.prototype.addDays = function(days) {
         });
     }]);
 
-    EasyCare.config(['$controllerProvider', function($controllerProvider) {
+    BebelBaby.config(['$controllerProvider', function($controllerProvider) {
     // this option might be handy for migrating old apps, but please don't use it
     // in new ones!
     $controllerProvider.allowGlobals();
     }]);
 
     /* Setup global settings */
-    EasyCare.factory('globalSettings', ['$rootScope', function($rootScope) {
+    BebelBaby.factory('globalSettings', ['$rootScope', function($rootScope) {
         // supported languages
         var settings = {
             layout: {
@@ -71,7 +71,7 @@ Date.prototype.addDays = function(days) {
     }]);
 
     /* Setup App Main Controller */
-    EasyCare.controller('AppController', ['$scope', '$rootScope', function($scope, $rootScope) {
+    BebelBaby.controller('AppController', ['$scope', '$rootScope', function($scope, $rootScope) {
         $scope.$on('$viewContentLoaded', function() {
             App.initComponents(); // init core components
             //Layout.init(); //  Init entire layout(header, footer, sidebar, etc) on page load if the partials included in server side instead of loading with ng-include directive 

@@ -7,7 +7,7 @@ GLobal Directives
 ***/
 
 // Route State Load Spinner(used on page or content load)
-angular.module("EasyCare").directive('ngSpinnerBar', ['$rootScope',
+angular.module("BebelBaby").directive('ngSpinnerBar', ['$rootScope',
     function($rootScope) {
         return {
             link: function(scope, element, attrs) {
@@ -46,7 +46,7 @@ angular.module("EasyCare").directive('ngSpinnerBar', ['$rootScope',
 ])
 
 // Handle global LINK click
-angular.module("EasyCare").directive('a', function() {
+angular.module("BebelBaby").directive('a', function() {
     return {
         restrict: 'E',
         link: function(scope, elem, attrs) {
@@ -60,7 +60,7 @@ angular.module("EasyCare").directive('a', function() {
 });
 
 // Handle Dropdown Hover Plugin Integration
-angular.module("EasyCare").directive('dropdownMenuHover', function () {
+angular.module("BebelBaby").directive('dropdownMenuHover', function () {
   return {
     link: function (scope, elem) {
       elem.dropdownHover();

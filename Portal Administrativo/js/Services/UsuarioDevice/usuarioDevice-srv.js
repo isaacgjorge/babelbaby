@@ -1,7 +1,7 @@
 (function(){
     "use strict";
 
-    angular.module('EasyCare').service('usuarioDeviceService', 
+    angular.module('BebelBaby').service('usuarioDeviceService', 
     ['$http', '$rootScope',
     function($http, $rootScope) {
          var associarDeviceUsuario = function(usuarioDevice){

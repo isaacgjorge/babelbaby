@@ -2,7 +2,7 @@
     "use strict";
 
     /* Setup general page controller */
-    angular.module('EasyCare').controller('GeneralPageController', 
+    angular.module('BebelBaby').controller('GeneralPageController', 
     ['$rootScope', '$scope', 'globalSettings', function($rootScope, $scope, globalSettings) {
         $scope.$on('$viewContentLoaded', function() {   
             // initialize core components

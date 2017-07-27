@@ -1,7 +1,7 @@
 (function(){
     "use strict";
 
-    angular.module('EasyCare').service('miboxService', 
+    angular.module('BebelBaby').service('miboxService', 
     ['$http', '$rootScope', '$q', '$window',
     function($http, $rootScope, $q, $window) {
         var LoginMiBox = function(callback){
@@ -22,7 +22,7 @@
 
                 }        
 
-                xhr.send("grant_type=password&username=easyCareAdmin@montreal.com.br&password=Montreal@01");
+                xhr.send("grant_type=password&username=BebelBabyAdmin@montreal.com.br&password=Montreal@01");
 
             }); 
 

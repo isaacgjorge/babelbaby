@@ -17,6 +17,10 @@ namespace BebelBaby.Repository.Common
 
         IGenericRepository<CorProduto> CorProdutoRepository { get; }
 
+        IGenericRepository<Perfil> PerfilRepository { get; }
+
+        IGenericRepository<PerfilUsuario> PerfilUsuarioRepository { get; }
+
         IGenericRepository<Produto> ProdutoRepository { get; }
 
         IGenericRepository<Tamanho> TamanhoRepository { get; }

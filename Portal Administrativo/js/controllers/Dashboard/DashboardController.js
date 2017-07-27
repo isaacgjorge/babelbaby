@@ -1,6 +1,6 @@
 (function () {
     "use strict";
-    angular.module('EasyCare').controller('DashboardController',
+    angular.module('BebelBaby').controller('DashboardController',
     ['$rootScope', '$scope', '$http', '$timeout', 'globalSettings', '$state', 'toastr',
     function($rootScope, $scope, $http, $timeout,globalSettings, $state, toastr) {
         $scope.$on('$viewContentLoaded', function() {   

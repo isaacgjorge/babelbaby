@@ -1,7 +1,7 @@
 /* Init global settings and run the app */
 (function () {
     "use strict";
-    angular.module("EasyCare")
+    angular.module("BebelBaby")
     .run(["$rootScope", "$state", '$http', '$stateParams', '$window',
     function($rootScope, $state,$http, $location, $window) {
         $rootScope.$state = $state; // state to be accessed from view

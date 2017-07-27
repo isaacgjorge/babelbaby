@@ -25,6 +25,10 @@ namespace BebelBaby.Repository
 
         public DbSet<CorProduto> CorProduto { get; set; }
 
+        public DbSet<Perfil> Perfil { get; set; }
+
+        public DbSet<PerfilUsuario> PerfilUsuario { get; set; }
+
         public DbSet<Produto> Produto { get; set; }
 
         public DbSet<Tamanho> Tamanho { get; set; }
