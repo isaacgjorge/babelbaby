@@ -11,7 +11,7 @@
         return service;
  
         function Login(username, password) {
-           var promise = $http.post($rootScope.baseUrl + 'usuario/signin', { "Email": username, "Senha": password })
+           var promise = $http.post($rootScope.baseUrl + 'api/UserController/signin', { "Login": username, "Senha": password })
                 .success(function (response) {
                     
                     // login successful if there's a token in the response
