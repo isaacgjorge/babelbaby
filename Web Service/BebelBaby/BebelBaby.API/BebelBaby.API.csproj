@@ -191,7 +191,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Infra\DependencyResolver\BusinessRulesModule.cs" />
     <Compile Include="Infra\DependencyResolver\EFModule.cs" />
     <Compile Include="Infra\DependencyResolver\RepositoryModule.cs" />
     <Compile Include="Infra\DependencyResolver\ServiceModule.cs" />
@@ -216,10 +215,6 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BebelBaby.Core.BusinessRules\BebelBaby.Core.BusinessRules.csproj">
-      <Project>{dcb26867-e3db-4af3-931b-eabdf722e192}</Project>
-      <Name>BebelBaby.Core.BusinessRules</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BebelBaby.Core\BebelBaby.Core.csproj">
       <Project>{c482b211-8bc2-437b-8c0b-415ddb5ce1e5}</Project>
       <Name>BebelBaby.Core</Name>

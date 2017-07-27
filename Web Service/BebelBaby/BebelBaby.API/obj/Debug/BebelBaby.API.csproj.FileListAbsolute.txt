@@ -315,7 +315,6 @@ C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.API.pdb
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\Autofac.dll
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\Autofac.Integration.WebApi.dll
-C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.BusinessRules.dll
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.dll
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Repository.dll
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Service.dll
@@ -346,7 +345,6 @@ C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\System.Web.WebPages.dll
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\System.Web.WebPages.Razor.dll
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\WebActivatorEx.dll
-C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.BusinessRules.pdb
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.pdb
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Repository.pdb
 C:\Users\isaac.jorge\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Repository.dll.config

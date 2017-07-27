@@ -63,6 +63,9 @@
     <Compile Include="Common\Pager.cs" />
     <Compile Include="Common\DataContext.cs" />
     <Compile Include="Common\GenericRepository.cs" />
+    <Compile Include="IPerfilRepository.cs" />
+    <Compile Include="IPerfilUsuarioRepository.cs" />
+    <Compile Include="IUsuarioRepository.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Common\UnitWork.cs" />

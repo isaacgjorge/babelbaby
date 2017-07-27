@@ -22,20 +22,12 @@ namespace BebelBaby.Api
             builder.RegisterApiControllers(assembly);
 
             // OPTIONAL: Register the Autofac filter provider.
-            builder.RegisterWebApiFilterProvider(config);
-
-            //builder.RegisterModule<QueueModule>();
-            //builder.RegisterModule<FiltersModule>();
-            //builder.RegisterModule<NHibernateModule>();
-            //builder.RegisterModule<RepositoriesModule>();
+            builder.RegisterWebApiFilterProvider(config);            
             builder.RegisterModule<RepositoryModule>();
             builder.RegisterModule<ServiceModule>();
             builder.RegisterModule<EFModule>();
             builder.RegisterModule<UtilModule>();
-            builder.RegisterModule<BusinessRulesModule>();
-            //builder.RegisterModule<RulesModule>();
-
-            //var container = builder.Build();
+            
 
             //GlobalConfiguration.Configuration.DependencyResolver = new AutofacWebApiDependencyResolver(container);
             //DependencyResolver.SetResolver(new AutofacDependencyResolver(container));

@@ -16,9 +16,10 @@ namespace BebelBaby.Core
         [MaxLength(10)]
         public string Login { get; set; }
         
-        public string PasswordHash { get; set; }
+        public string Senha { get; set; }
 
-        public string Salt { get; set; }
+        [MaxLength(250)]
+        public string Nome { get; set; }
 
         [InverseProperty("Usuario")]
         public virtual ICollection<PerfilUsuario> PerfisUsuario { get; set; }
