@@ -5,8 +5,7 @@
     .run(["$rootScope", "$state", '$http', '$stateParams', '$window',
     function($rootScope, $state,$http, $location, $window) {
         $rootScope.$state = $state; // state to be accessed from view
-        $rootScope.baseUrl = "http://localhost:55698/";
-        //$rootScope.baseUrl = "https://mcare.montreal.com.br/";
+        $rootScope.baseUrl = "http://localhost:55698/api/";
          // keep user logged in after page refresh
          if ($rootScope.$user) {
              $http.defaults.headers.common.Authorization = 'Bearer ' + $rootScope.$user.currentUser.token;
