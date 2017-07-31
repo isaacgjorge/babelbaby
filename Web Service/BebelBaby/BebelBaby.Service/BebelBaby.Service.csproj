@@ -54,6 +54,7 @@
     <Compile Include="PerfilService.cs" />
     <Compile Include="PerfilUsuarioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProdutoService.cs" />
     <Compile Include="UsuarioService.cs" />
   </ItemGroup>
   <ItemGroup>

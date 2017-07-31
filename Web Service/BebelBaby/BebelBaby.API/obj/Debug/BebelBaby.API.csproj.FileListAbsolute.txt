@@ -408,7 +408,6 @@ C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\Bebel
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.API.pdb
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\Autofac.dll
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\Autofac.Integration.WebApi.dll
-C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.BusinessRules.dll
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.dll
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Repository.dll
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Service.dll
@@ -439,7 +438,6 @@ C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\Bebel
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\System.Web.WebPages.dll
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\System.Web.WebPages.Razor.dll
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\WebActivatorEx.dll
-C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.BusinessRules.pdb
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Core.pdb
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Repository.pdb
 C:\Users\marcelo.medeiros\Documents\GitHub\babelbaby\Web Service\BebelBaby\BebelBaby.API\bin\BebelBaby.Service.pdb
