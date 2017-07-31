@@ -26,17 +26,9 @@
             }
 
             loginService.Login(vm.usuario, vm.senha).then(function (result) {
-                if (result.data.token) {
-                    miboxService.LoginMiBox(function(){
-                        miboxService.DownlodImageMiBox($rootScope.$user.currentUser.usuario.IdImagemMiBox).then(function(response){
-                            $window.sessionStorage.setItem('avatarimageUser', response);
-                            $rootScope.$user.currentUser.avatarImage = response;
-                        });
-                    });
-                                     
+                if (result.data.token) {                               
                     $http.defaults.headers.common.Authorization = $rootScope.defaultToken;  
-                    $state.go('private.listaUsuarios');
-                    
+                    $state.go('private.listaUsuarios');                    
                 } 
             }).catch(function(response) {
                 vm.divError = true;
